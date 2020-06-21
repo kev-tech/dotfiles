@@ -1,5 +1,5 @@
 syntax on
-colo simple-dark
+color simple-dark
 set number
 set shell=/bin/zsh
 set backspace=2
@@ -42,3 +42,4 @@ Plugin 'racer-rust/vim-racer'
 " Rust autocomplete.
 
 call vundle#end() 
+filetype plugin indent on

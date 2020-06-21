@@ -16,6 +16,7 @@ alias xcode='open . -a xcode'
 alias write='cd ~/website/ && open . -a nova'
 alias tmux="TERM=screen-256color-bce tmux"
 alias ide="Bash ~/Scripts/Bash/ide.sh"
+alias rpl="cd ~/Documents/rpl/"
 
 # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/.rvm/bin"
