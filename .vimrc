@@ -24,6 +24,10 @@ augroup Racer
     autocmd FileType rust nmap <buffer> <leader>gD <Plug>(rust-doc-tab)
 augroup END
 
+" Split window
+nmap ss :split<Return><C-w>w
+nmap sv :vsplit<Return><C-w>w
+
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
